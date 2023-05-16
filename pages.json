@@ -1,0 +1,370 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+		"^wf-(.*)": "@/components/wf-ui/components/wf-$1/wf-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "趣信",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FBF8FF",
+				"navigationBarTextStyle": "black",
+				"backgroundColor": "#FBF8FF"
+			}
+		}, 
+		{
+			"path": "pages/home/interest/index",
+			"style": {
+				"navigationBarTitleText": "添加兴趣",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FBF8FF",
+				"navigationBarTextStyle": "black",
+				"backgroundColor": "#FBF8FF",
+				"navigationStyle": "default"
+			}
+		}, 
+		{
+			"path": "pages/home/interest/create",
+			"style": {
+				"navigationBarTitleText": "添加兴趣简介",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FBF8FF",
+				"navigationBarTextStyle": "black",
+				"backgroundColor": "#FBF8FF",
+				"navigationStyle": "default"
+			}
+		}, 
+		{
+			"path": "pages/home/lookInterest/index",
+			"style": {
+				"navigationBarTitleText": "趣信",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, 
+		{
+			"path": "pages/home/activity/index",
+			"style": {
+				"navigationBarTitleText": "趣信",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FBF8FF"
+			}
+		},
+		{
+			"path": "pages/home/addFriend/index",
+			"style": {
+				"navigationBarTitleText": "趣信",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FBF8FF",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/actitivityPeople/index",
+			"style": {
+				"navigationBarTitleText": "趣信",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FBF8FF",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home/addPeopleOrActivity/index",
+			"style": {
+				"navigationBarTitleText": "摇人",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#FBF8FF",
+				"homeButton": true
+			}
+		},
+		
+		
+		
+		{
+			"path": "pages/service/service",
+			"style": {
+				"navigationBarTitleText": "服务",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, 
+		// {
+		// 	"path": "pages/manage/manage",
+		// 	"style": {
+		// 		"navigationBarTitleText": "管理",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationBarBackgroundColor": "#67A6FF"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/manage/notice",
+		// 	"style": {
+		// 		"navigationBarTitleText": "通知公告",
+		// 		"enablePullDownRefresh": true,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// }, 
+		// {
+		// 	"path": "pages/manage/role",
+		// 	"style": {
+		// 		"navigationBarTitleText": "角色管理",
+		// 		"enablePullDownRefresh": true,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// }, 
+		// {
+		// 	"path": "pages/manage/post",
+		// 	"style": {
+		// 		"navigationBarTitleText": "岗位管理",
+		// 		"enablePullDownRefresh": true,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/manage/dept",
+		// 	"style": {
+		// 		"navigationBarTitleText": "部门管理",
+		// 		"enablePullDownRefresh": true,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/manage/dict",
+		// 	"style": {
+		// 		"navigationBarTitleText": "字典管理",
+		// 		"enablePullDownRefresh": true,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		{
+			"path": "pages/user/center",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/user/profile",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/login/login-phone",
+			"style": {
+				"navigationBarTitleText": "手机登录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/login/login-account",
+			"style": {
+				"navigationBarTitleText": "账号登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/system/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}
+		// , {
+		// 	"path": "pages/news/list",
+		// 	"style": {
+		// 		"navigationBarTitleText": "新闻动态",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom"
+		// 	}
+
+		// }, 
+		// {
+		// 	"path": "pages/news/detail",
+		// 	"style": {
+		// 		"navigationBarTitleText": "新闻详情页",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// }, {
+		// 	"path": "pages/demo/demo",
+		// 	"style": {
+		// 		"navigationBarTitleText": "IM聊天",
+		// 		"enablePullDownRefresh": false
+		// 	}
+		// }, {
+		// 	"path": "pages/demo/storage",
+		// 	"style": {
+		// 		"navigationBarTitleText": "storage测试页",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// }, {
+		// 	"path": "pages/demo/vuex",
+		// 	"style": {
+		// 		"navigationBarTitleText": "vuex测试页",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// }, {
+		// 	"path": "pages/demo/mock",
+		// 	"style": {
+		// 		"navigationBarTitleText": "mock测试页",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// }, {
+		// 	"path": "pages/demo/request",
+		// 	"style": {
+		// 		"navigationBarTitleText": "request测试页",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// }, {
+		// 	"path": "pages/demo/crud",
+		// 	"style": {
+		// 		"navigationBarTitleText": "crud测试页",
+		// 		"enablePullDownRefresh": false,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// }, {
+		// 	"path": "pages/demo/crud1",
+		// 	"style": {
+		// 		"navigationBarTitleText": "crud测试页",
+		// 		"enablePullDownRefresh": true,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// }, {
+		// 	"path": "pages/demo/crud2",
+		// 	"style": {
+		// 		"navigationBarTitleText": "crud测试页",
+		// 		"enablePullDownRefresh": true,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/rich/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// }
+        ,{
+            "path" : "pages/home/channel/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "频道",
+                "enablePullDownRefresh": false,
+								"backgroundColor": "#FBF8FF"
+            }
+            
+        },
+				{
+					"path": "pages/login/index",
+					"style": {
+						"navigationStyle": "default",
+						"navigationBarTitleText": "登录"
+					}
+				},
+				{
+					"path": "pages/login/register",
+					"style": {
+						"navigationStyle": "default",
+						"navigationBarTitleText": "注册"
+					}
+				},
+				{
+					"path": "pages/home/channel/changeAuth",
+					"style": {
+						"navigationStyle": "default",
+						"navigationBarTitleText": "权限设置"
+					}
+				},
+				{
+					"path": "pages/home/addFriend/addMedia",
+					"style": {
+						"navigationStyle": "default",
+						"navigationBarTitleText": "添加兴趣靓颖"
+					}
+				},
+				{
+					"path": "pages/home/channel/friendDetail",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "其他用户详情"
+					}
+				},
+				{
+					"path": "pages/home/channel/activityDetail",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "活动详情"
+					}
+				},
+				{
+					"path": "pages/home/adopt/adoptDetail",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "领养详情"
+					}
+				},
+				{
+					"path": "pages/home/adopt/guide",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "趣有公益"
+					}
+				},
+				{
+					"path": "pages/home/channel/timeline",
+					"style": {
+						"navigationStyle": "default",
+						"navigationBarTitleText": "趣圈"
+					}
+				}
+				
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FBF8FF",
+		"backgroundColor": "#FBF8FF"
+	}
+	// ,
+	// "tabBar": {
+	// 	"color": "#AFB8C3",
+	// 	"selectedColor": "#5086FA",
+	// 	"borderStyle": "white",
+	// 	"backgroundColor": "#ffffff",
+	// 	"list": [{
+	// 		"pagePath": "pages/home/home",
+	// 		"iconPath": "static/images/tabbar/home.png",
+	// 		"selectedIconPath": "static/images/tabbar/home_selected.png",
+	// 		"text": "趣聊"
+	// 	}, {
+	// 		"pagePath": "pages/demo/demo",
+	// 		"iconPath": "static/images/tabbar/demo.png",
+	// 		"selectedIconPath": "static/images/tabbar/demo_selected.png",
+	// 		"text": "趣友"
+	// 	}, {
+	// 		"pagePath": "pages/manage/manage",
+	// 		"iconPath": "static/images/tabbar/manage.png",
+	// 		"selectedIconPath": "static/images/tabbar/manage_selected.png",
+	// 		"text": "趣圈"
+	// 	},{
+	// 		"pagePath": "pages/user/center",
+	// 		"iconPath": "static/images/tabbar/user.png",
+	// 		"selectedIconPath": "static/images/tabbar/user_selected.png",
+	// 		"text": "我的"
+	// 	}]
+	// }
+}
